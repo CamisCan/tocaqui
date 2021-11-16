@@ -1,128 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*CABEÇALHO PÁGINA*/
 
-.banner{
-    background-image: url(../../images/foto-banners/pexels-eduardo-dutra-2115217.jpg);
-    background-size: cover
+.banner {
+  background-image: url(../../images/foto-banners/pexels-eduardo-dutra-2115217.jpg);
+  background-size: cover;
 }
 
-.button-responsivo{
-    background-color: transparent;
-    border: none;
-    color: white;
-    float: right;
-    display: none;
+.button-responsivo {
+  background-color: transparent;
+  border: none;
+  color: white;
+  float: right;
+  display: none;
 }
 
 .logo {
-    width: 10%;
-    float: left;
-    display: inline;
-    padding-left: 5%;
-    padding-top: 3%;
+  width: 10%;
+  float: left;
+  display: inline;
+  padding-left: 5%;
+  padding-top: 3%;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 200%;
-    width: unset;
-    font-weight: bold;
-    color: white;
-    padding: auto;
-    padding: 10%;
+.titulo {
+  text-align: center;
+  font-size: 200%;
+  width: unset;
+  font-weight: bold;
+  color: white;
+  padding: auto;
+  padding: 10%;
 }
 
-.menu{
-    padding: 3%;
-    text-align: right;
-    color: white;
-    text-decoration: none;
-    font-family: Montserrat;
+.menu {
+  padding: 3%;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  font-family: Montserrat;
 }
 
-ol:hover{
-    cursor: pointer;
-    color: #E01747
+ol:hover {
+  cursor: pointer;
+  color: #e01747;
 }
 
-
-.menu ol{
-    display: inline;
-    padding: 20px;
-    text-decoration: none;
-    display: inline-block;
-    text-decoration: none
+.menu ol {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.menu-home{
-    font-weight: bold;
+.menu-home {
+  font-weight: bold;
 }
 
-.menu-quem-somos{
-    font-weight: bold;
+.menu-quem-somos {
+  font-weight: bold;
 }
 
-.menu-como-funciona{
-    font-weight: bold;
+.menu-como-funciona {
+  font-weight: bold;
 }
 
-.menu-parceiros{
-    font-weight: bold;
+.menu-parceiros {
+  font-weight: bold;
 }
 
-.menu-blog{
-    font-weight: bold;
+.menu-blog {
+  font-weight: bold;
 }
 
-.estabelecimento{
-    display: inline;
-    font-weight: bold;
+.estabelecimento {
+  display: inline;
+  font-weight: bold;
 }
 
-.botao-estabelecimento{
-    background-color: white;
-    border: none;
-    padding: 1%;
-    color:#E01747;
-    border-radius: 20px 20px 20px 20px;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 7px 20px 7px 20px;
-    cursor: pointer;
+.botao-estabelecimento {
+  background-color: white;
+  border: none;
+  padding: 1%;
+  color: #e01747;
+  border-radius: 20px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  cursor: pointer;
 }
 
-.botao-estabelecimento:hover{
-    cursor: pointer;
-    background-color: black;
-    color: white
+.botao-estabelecimento:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
-.musicista{
-    display: inline;
+.musicista {
+  display: inline;
 }
 
-.botao-musicista{
-    background-color: #E01747;
-    border: none;
-    padding: 1%;
-    color: white;
-    border-radius: 20px 20px 20px 20px;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 7px 20px 7px 20px;
-    cursor: pointer;
+.botao-musicista {
+  background-color: #e01747;
+  border: none;
+  padding: 1%;
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  cursor: pointer;
 }
 
-.botao-musicista:hover{
-    cursor: pointer;
-    background-color: black;
-    color: white
+.botao-musicista:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
-
-
-
-
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -137,7 +132,7 @@ body {
 
 .h1CadastroEstabelecimentoInicial {
   color: #e01747;
-  
+
   font-weight: bold;
   margin: 30px 0;
 }
@@ -169,88 +164,81 @@ body {
   flex-direction: row;
 }
 
-.divEndereco1 {
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
+.pDiasHorariosFuncionamento {
+  margin-top: 30px;
+  font-size: 19px;
+  line-height: 25px;
 }
 
-.divEndereco2 {
-  align-items: center;
-
-  flex-direction: row;
-}
-
-.divContato {
-  align-items: center;
-
-  flex-direction: row;
-}
-
-.divSenha {
-  align-items: center;
-  justify-content: center;
-}
-
-.divBtn {
-  margin: 40px 20px;
+.diasHorariosFuncionamento {
   display: flex;
-  justify-content: end;
+  flex-direction: row;
   align-items: center;
+  justify-content: left;
+  flex-wrap: nowrap;
 }
 
-.divBtn button {
-  margin: 35px 20px;
+.diasFuncionamento .form-check {
+  margin: 25px;
+}
+
+.horariosFuncionamento input {
+  margin: 10px 0;
+}
+
+.checkSonorizacaoIluminacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkSonorizacaoIluminacao p {
+  margin: 20px 20px 20px 0;
+  font-size: 19px;
+  line-height: 25px;
+}
+.inputLabelSonorizacao {
+  margin: 20px;
+  padding: 0 20px;
+}
+
+.inputLabelSonorizacao label {
+  padding: 0 20px 0 0;
+}
+
+.descritivoSonorizacaoIluminacao p {
+  margin-bottom: 5px;
+}
+
+.divSelectEstilos {
+  margin: 30px 0;
+}
+
+.btnSalvar {
+  display: flex;
+  justify-content: right;
+}
+
+.btnSalvar button {
   background-color: #e01747;
-  text-align: center;
-  font-size: 12px;
-  color: #ffffff;
-  font-weight: bold;
-  margin-left: 15px;
-  border: 1px solid #e01747;
-  border-radius: 600px;
-  padding: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  margin: 30px;
 }
-
-.h2RedesSociais{
-  margin: 30px 25px;
-}
-
-.redesSociaisCad img {
-  width: 60px;
-  height: 60px;
-}
-
-.iconesRedesSociaisCad {
-  display: flex;
-  flex-direction: row;
-  margin: 10px 24px;
-}
-
-.iconesRedesSociaisCad a img {
-  margin: 10px;
-}
-
-.redesSociaisCad{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 40px;
-}
-
 
 /*RODAPÉ*/
 
-.footer-1{
+.footer-1 {
   display: flex;
   padding: auto;
-  background-color:#363636;
+  background-color: #363636;
   font-family: Montserrat;
   text-align: left;
 }
 
-.colum-1{
+.colum-1 {
   color: white;
   font-size: 12px;
   padding: 3%;
@@ -258,13 +246,13 @@ body {
   line-height: 170%;
 }
 
-.quem-somos{
+.quem-somos {
   font-weight: bold;
   padding-bottom: 14%;
   font-size: 14px;
 }
 
-.colum-2{
+.colum-2 {
   color: white;
   font-size: 12px;
   padding: 3%;
@@ -272,13 +260,13 @@ body {
   line-height: 170%;
 }
 
-.como-funciona{
+.como-funciona {
   font-weight: bold;
   padding-bottom: 14%;
   font-size: 14px;
 }
 
-.colum-3{
+.colum-3 {
   color: white;
   font-size: 12px;
   padding: 3%;
@@ -286,7 +274,7 @@ body {
   line-height: 170%;
 }
 
-.links-uteis{
+.links-uteis {
   font-weight: bold;
   padding-bottom: 14%;
   font-size: 14px;
@@ -299,40 +287,39 @@ body {
   font-size: 12px;
   padding: 3%;
   line-height: 170%;
-  
 }
 
-.icone-facebook{
+.icone-facebook {
   width: 6%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
 
-.icone-insta{
+.icone-insta {
   width: 6%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
 
-.icone-twitter{
+.icone-twitter {
   width: 6%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
 
-.icone-linkedIn{
+.icone-linkedIn {
   width: 6%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
 
-.icone-youtube{
+.icone-youtube {
   width: 6%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
 
-.logo-rodape{
+.logo-rodape {
   width: 10%;
   align-items: center;
   display: block;
@@ -340,237 +327,230 @@ body {
   margin-right: auto;
 }
 
-.copyright{
+.copyright {
   color: white;
   font-size: 10px;
   text-align: center;
   margin: auto;
 }
 
-.footer-2{
-  background-color:#363636;
+.footer-2 {
+  background-color: #363636;
 }
 
-.copyright{
+.copyright {
   font-family: Montserrat;
   padding: 2%;
 }
 
-
-
-
-
-@media(max-width: 950px)
-{
-  .logo{
-      width: 30%;
-      margin-left: 30%;
+@media (max-width: 950px) {
+  .logo {
+    width: 30%;
+    margin-left: 30%;
   }
 
-  .menu{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
-  ol:hover{
-      cursor: pinter;
-      opacity: 0.8;
+  ol:hover {
+    cursor: pinter;
+    opacity: 0.8;
   }
 
-  .footer-1{
-      width: 100%;
-      min-height: 100px;
-      display: flex;
-      flex-direction: column;
+  .footer-1 {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .colum-1{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 10%;
+  .colum-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
   }
 
-  .colum-2{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  .colum-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .colum-3{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  .colum-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .logo-rodape{
-      min-width: 22%;
-      text-align: center;
-      align-items: center;
+  .logo-rodape {
+    min-width: 22%;
+    text-align: center;
+    align-items: center;
   }
 
-  .footer-2{
-      text-align: center;
+  .footer-2 {
+    text-align: center;
   }
 
-  .redes-sociais{
-      text-align: center;
-      padding-top: 10%;
+  .redes-sociais {
+    text-align: center;
+    padding-top: 10%;
   }
 
-  .copyright{
-      padding-bottom: 10%;
-      font-size: 12px;
-      size: 50px;
+  .copyright {
+    padding-bottom: 10%;
+    font-size: 12px;
+    size: 50px;
   }
 
-  .button-responsivo{
-      display: flex;
-      font-size: 30px;
-      padding-top: 70px;
-      padding-right: 30px;
+  .button-responsivo {
+    display: flex;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-right: 30px;
   }
-  
+
   .button-responsivo:focus ˜ ol {
-      height: 250px
-
+    height: 250px;
   }
 
-  .button-responsivo:hover{
-      cursor: pinter;
-      opacity: 0.8;
-      cursor: pointer;
-      color: black
+  .button-responsivo:hover {
+    cursor: pinter;
+    opacity: 0.8;
+    cursor: pointer;
+    color: black;
   }
 
-  .menu{
-      text-align: justify;
-      margin-right: none;
-      background-color: black; opacity: 80%;
-      margin: 0;
-      padding: 0;
-      width: 0;
-      height: 0;
-      font-size: 0;
-  }
-      
-  .botao-estabelecimento{
-      width: 0;
-      height: 0;
-      font-size: 0;
-      padding: 0;
-      margin: 0;
+  .menu {
+    text-align: justify;
+    margin-right: none;
+    background-color: black;
+    opacity: 80%;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
   }
 
-  .botao-musicista{
-      width: 0;
-      height: 0;
-      font-size: 0;
-      padding: 0;
-      margin: 0;
+  .botao-estabelecimento {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
   }
 
-  .titulo{
-      padding-top: 40%;
-      font-size: 25px;
+  .botao-musicista {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
   }
 
-  .cadastro-1{
-      display: flex;
-      flex-direction: column;
+  .titulo {
+    padding-top: 40%;
+    font-size: 25px;
   }
 
-  .cadastro-1 img{
-      display: flex;
-      flex-direction: column;
-      width: 30vw;
+  .cadastro-1 {
+    display: flex;
+    flex-direction: column;
   }
 
-  .cadastro-1 h2{
-      display: flex;
-      flex-direction: column;
-      font-size: 4vw;
-      margin-bottom: 3vw;
+  .cadastro-1 img {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
   }
 
-
-  .cadastro-2{
-      display: flex;
-      flex-direction: column;
+  .cadastro-1 h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-bottom: 3vw;
   }
 
-  .cadastro-2 img{
-      display: flex;
-      flex-direction: column;
-      width: 30vw;
+  .cadastro-2 {
+    display: flex;
+    flex-direction: column;
   }
 
-  .cadastro-2 h2{
-      display: flex;
-      flex-direction: column;
-      font-size: 4vw;
-      margin-bottom: 3vw;
+  .cadastro-2 img {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
   }
 
-  .cadastro-3{
-      display: flex;
-      flex-direction: column;
+  .cadastro-2 h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-bottom: 3vw;
   }
 
-  .cadastro-3 img{
-      display: flex;
-      flex-direction: column;
-      width: 30vw;
+  .cadastro-3 {
+    display: flex;
+    flex-direction: column;
   }
 
-  .cadastro-3 h2{
-      display: flex;
-      flex-direction: column;
-      font-size: 4vw;
-      margin-bottom: 3vw;
+  .cadastro-3 img {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
   }
 
-  .cadastro-4{
-      display: flex;
-      flex-direction: column;
+  .cadastro-3 h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-bottom: 3vw;
   }
 
-  .cadastro-4 img{
-      display: flex;
-      flex-direction: column;
-      width: 60vw;
-      margin-top: 3vw;
+  .cadastro-4 {
+    display: flex;
+    flex-direction: column;
   }
 
-  .cadastro-4 h2{
-      display: flex;
-      flex-direction: column;
-      font-size: 4vw;
-      margin-bottom: 3vw;
-      text-align: center;
+  .cadastro-4 img {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 3vw;
+  }
+
+  .cadastro-4 h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    margin-bottom: 3vw;
+    text-align: center;
   }
 
   .cadastro-5 {
-      font-family: Montserrat;
-      text-align: center;
-      color: #E01747;
-      font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 2vw;
-      margin-top: 30vw;
+    font-family: Montserrat;
+    text-align: center;
+    color: #e01747;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2vw;
+    margin-top: 30vw;
   }
-  
-  .cadastro-5 button{
-      color: white;
-      background-color: #E01747;
-      border: none;
-      padding: 1vw 3vw;
-      border-radius: 3vw;
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 3vw;
-      margin-bottom: 30vw;
+
+  .cadastro-5 button {
+    color: white;
+    background-color: #e01747;
+    border: none;
+    padding: 1vw 3vw;
+    border-radius: 3vw;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3vw;
+    margin-bottom: 30vw;
   }
-  
 }
