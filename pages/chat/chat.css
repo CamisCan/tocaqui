@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*CABEÇALHO PÁGINA*/
+
+.banner{
+    background-image: url(/images/foto-banners/pexels-eduardo-dutra-2115217.jpg);
+    background-size: cover
+}
+
+.button-responsivo{
+    background-color: transparent;
+    border: none;
+    color: white;
+    float: right;
+    display: none;
+}
+
+.logo{
+    width: 10%;
+    float: inline-start;
+    display: inline;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 200%;
+    width: unset;
+    font-weight: bold;
+    color: white;
+    padding: auto;
+    padding: 10%;
+}
+
+.menu{
+    padding: 3%;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+ol:hover{
+    cursor: pointer;
+    color: #E01747
+}
+
+
+.menu ol{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none
+}
+
+.menu-home{
+    font-weight: bold;
+}
+
+.menu-quem-somos{
+    font-weight: bold;
+}
+
+.menu-como-funciona{
+    font-weight: bold;
+}
+
+.menu-parceiros{
+    font-weight: bold;
+}
+
+.menu-blog{
+    font-weight: bold;
+}
+
+.estabelecimento{
+    display: inline;
+    font-weight: bold;
+}
+
+.botao-estabelecimento{
+    background-color: white;
+    border: none;
+    padding: 1%;
+    color:#E01747;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+}
+
+.botao-estabelecimento:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white
+}
+
+.musicista{
+    display: inline;
+}
+
+.botao-musicista{
+    background-color: #E01747;
+    border: none;
+    padding: 1%;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+}
+
+.botao-musicista:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white
+}
+
+/*CORPO DA PÁGINA*/
+
+.cadastro-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    color: #666666;
+    padding: 60px 60px 60px 60px;
+    line-height: 20px;
+}
+
+.cadastro-1 h2{
+    color: #E01747;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.cadastro-1 p{
+    color: #666666;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.cadastro-1 img{
+    width: 20vw;
+    margin: 4vw;
+}
+
+.cadastro-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    color: #666666;
+    padding: 60px 60px 60px 60px;
+    line-height: 20px;
+    background-color: #F0F0F0;
+}
+
+.cadastro-2 h2{
+    color: #E01747;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2vw;
+}
+
+.cadastro-2 p{
+    color: #666666;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.cadastro-2 img{
+    width: 20vw;
+    margin: 4vw;
+}
+
+.cadastro-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    color: #666666;
+    padding: 60px 60px 60px 60px;
+    line-height: 20px;
+}
+
+.cadastro-3 h2{
+    color: #E01747;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2vw;
+}
+
+.cadastro-3 p{
+    color: #666666;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.cadastro-3 img{
+    width: 20vw;
+    margin: 4vw;
+}
+
+.cadastro-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    color: #666666;
+    padding: 60px 60px 60px 60px;
+    line-height: 20px;
+    background-color: #F0F0F0;
+}
+
+.cadastro-4 h2{
+    color: #E01747;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2vw;
+}
+
+.cadastro-4 p{
+    color: #666666;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.cadastro-4 img{
+    width: 50vw;
+    margin-left: 3vw;
+}
+
+.cadastro-5 {
+    font-family: Montserrat;
+    text-align: center;
+    color: #E01747;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2vw;
+    margin-top: 13vw;
+}
+
+.cadastro-5 button{
+    color: white;
+    background-color: #E01747;
+    border: none;
+    padding: 1vw 3vw;
+    border-radius: 3vw;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+
+/*RODAPÉ*/
+
+.footer-1{
+    display: flex;
+    padding: auto;
+    background-color:#363636;
+    font-family: Montserrat;
+    text-align: left;
+}
+
+.colum-1{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.quem-somos{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.colum-2{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.como-funciona{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.colum-3{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.links-uteis{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.redes-sociais {
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    line-height: 170%;
+    padding: center;
+}
+
+.icone-facebook{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-insta{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-twitter{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-linkedIn{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-youtube{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.logo-rodape{
+    width: 10%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-2{
+    background-color:#363636;
+}
+
+.copyright{
+    font-family: Montserrat;
+    padding: 2%;
+}
+
+
+
+
+
+@media(max-width: 950px)
+{
+    .logo{
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    ol:hover{
+        cursor: pinter;
+        opacity: 0.8;
+    }
+
+    .footer-1{
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colum-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .colum-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .colum-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rodape{
+        min-width: 22%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-2{
+        text-align: center;
+    }
+
+    .redes-sociais{
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .copyright{
+        padding-bottom: 10%;
+        font-size: 12px;
+        size: 50px;
+    }
+
+    .button-responsivo{
+        display: flex;
+        font-size: 30px;
+        padding-top: 70px;
+        padding-right: 30px;
+    }
+    
+    .button-responsivo:focus ˜ ol {
+        height: 250px
+
+    }
+
+    .button-responsivo:hover{
+        cursor: pinter;
+        opacity: 0.8;
+        cursor: pointer;
+        color: black
+    }
+
+    .menu{
+        text-align: justify;
+        margin-right: none;
+        background-color: black; opacity: 80%;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+        
+    .botao-estabelecimento{
+        width: 0;
+        height: 0;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .botao-musicista{
+        width: 0;
+        height: 0;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .titulo{
+        padding-top: 40%;
+        font-size: 25px;
+    }
+
+    .cadastro-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-1 img{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+
+    .cadastro-1 h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+
+    .cadastro-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-2 img{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+
+    .cadastro-2 h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    .cadastro-3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-3 img{
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+
+    .cadastro-3 h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    .cadastro-4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-4 img{
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        margin-top: 3vw;
+    }
+
+    .cadastro-4 h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+
+    .cadastro-5 {
+        font-family: Montserrat;
+        text-align: center;
+        color: #E01747;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 2vw;
+        margin-top: 30vw;
+    }
+    
+    .cadastro-5 button{
+        color: white;
+        background-color: #E01747;
+        border: none;
+        padding: 1vw 3vw;
+        border-radius: 3vw;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 3vw;
+        margin-bottom: 30vw;
+    }
+    
+}
+
+.container{max-width:1170px; margin:auto;}
+img{ max-width:100%;}
+.inbox_people {
+  background: #f8f8f8 none repeat scroll 0 0;
+  float: left;
+  overflow: hidden;
+  width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+  border: 1px solid #c4c4c4;
+  clear: both;
+  overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+  display: inline-block;
+  text-align: right;
+  width: 60%;
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 0;
+  color: #707070;
+  font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+  float: left;
+  width: 11%;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 60%;
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+}
