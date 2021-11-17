@@ -1,196 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cadEstab.css" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <title>Tocaqui - Cadastro de estabelecimento</title>
-  </head>
-  
-  <body>
+</head>
+
+<body>
     <header>
 
-      <div class="logo"> <img src="../../images/logo-svg/logo-tocaqui-1-a.svg" alt="#"></div>
+        <div class="logo"> <img src="../../images/logo-svg/logo-tocaqui-1-a.svg" alt="#"></div>
 
-      <section class="banner">
+        <section class="banner">
 
-          <button class="button-responsivo">&#9776;</button>
+            <button class="button-responsivo">&#9776;</button>
 
-          <nav class="menu">
-              <ol class="menu-home" href="#"></a>Home</ol>
-              <ol class="menu-quem-somos" href="#"></a>Quem somos</ol>
-              <ol class="menu-home" href="#"></a>Como funciona</ol>
-              <ol class="menu-home" href="#"></a>Parceiros</ol>
-              <ol class="menu-home" href="3"></a>Blog</ol>
+            <nav class="menu">
+                <ol class="menu-home" href="#"></a>Home</ol>
+                <ol class="menu-quem-somos" href="#"></a>Quem somos</ol>
+                <ol class="menu-home" href="#"></a>Como funciona</ol>
+                <ol class="menu-home" href="#"></a>Parceiros</ol>
+                <ol class="menu-home" href="3"></a>Blog</ol>
 
-              <div class="estabelecimento"><button class="botao-estabelecimento">Sou estabelecimento</button></div>
-              <div class="musicista"> <button class="botao-musicista">Sou musicista</button></div>
+                <div class="estabelecimento"><button class="botao-estabelecimento">Sou estabelecimento</button></div>
+                <div class="musicista"> <button class="botao-musicista">Sou musicista</button></div>
 
-          </nav>
-        
-          
+            </nav>
 
-  </header>
+
+
+    </header>
 
     <main>
-      <section class="txtExplicativo">
-        <h1 class="h1CadastroEstabelecimentoInicial">
-          Cadastro do estabelecimento inicial
-        </h1>
-        <p class="descritivoCadastroInicial">
-          Esta é a primeira parte para que você possa cadastrar o seu
-          estabelecimento, basta preencher o formulário abaixo. Você já poderá
-          fazer o cadastro completo, mas se optar por fazer posteriormente,
-          basta salvar e completar assim que possível.
-        </p>
-      </section>
-      <div class="divCadastroInicial">
-        <form class="formCadastroInicial" action="">
-          <div class="divNomeEstabelecimento">
-            <label class="form-label" for="nomeEstabelecimento">
-              Nome do Estabelecimento</label
-            >
-            <input class="form-control" type="text" id="nomeEstabelecimento" />
-          </div>
+        <section class="txtExplicativo">
 
-          
-            <div class="col-md">
-            <label class="form-label" for="endereco">Endereço</label>
-            <input class="form-control" type="text" id="endereco" />
-          </div>  
-          <div class="row">
-          <div class="col">
-            <label class="form-label" for="numero">Nº</label>
-            <input class="form-control" type="text" id="numero" />
-          </div>
-          <div class="col">
-            <label class="form-label" for="complemento">Complemento</label>
-            <input class="form-control" type="text" id="complemento" />
-          </div>
-          </div>
+            <h1 class="h1CadastroEstabelecimentoInicial">
+                Cadastro do estabelecimento
+            </h1>
+            <p class="descritivoCadastroInicial">
+                Preencha o formulário abaixo para concluir o seu cadastro:
+            </p>
 
-          <div class="divEndereco2">
-            <label class="form-label" for="cep">CEP</label>
-            <input class="form-control" type="text" id="cep" />
-            <label class="form-label" for="bairro">Bairro</label>
-            <input class="form-control" type="text" id="bairro" />
-            <label class="form-label" for="cidade">Cidade</label>
-            <input class="form-control" type="text" id="cidade" />
-            <label class="form-label" for="uf">UF</label>
-            <input class="form-control" type="text" id="uf" />
-          </div>
+        </section>
+        <div class="divCadastroInicial">
 
-          <div class="divContato">
-            <label class="form-label" for="email">E-mail</label>
-            <input class="form-control" type="text" id="email" />
-            <label class="form-label" for="telefone">Telefone</label>
-            <input class="form-control" type="text" id="telefone" />
-          </div>
-          <div class="divSenha">
-            <label class="form-label" for="senha">Digite sua senha</label>
-            <input class="form-control" type="text" id="senha" />
-            <label class="form-label" for="confSenha">Confirme sua Senha</label>
-            <input class="form-control" type="text" id="confSenha" />
-          </div>
+            <form class="formCadastroInicial" action="">
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label" for="razaoSocial">Razão Social</label>
+                        <input class="form-control" type="text" id="razaoSocial" />
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="cnpj">CNPJ</label>
+                        <input class="form-control" type="text" id="cnpj" />
+                    </div>
+                </div>
 
-          <div class="divBtn">
-            <button type="submit">Quero continuar preenchendo</button>
-            <button type="submit">Salvar até aqui</button>
-          </div>
-        </form>
-      </div>
-      <div class="redesSociaisCad">
-        <div class="h2RedesSociais">
-          <h2>Conecte suas redes sociais</h2>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label" for="nomeFantasia">Nome Fantasia</label>
+                        <input class="form-control" type="text" id="nomeFantasia" />
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="nomeResponsavel">Nome do Responsavel</label>
+                        <input class="form-control" type="text" id="nomeResponsavel" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="form-control" type="text" id="email" />
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="telefone">Telefone</label>
+                        <input class="form-control" type="text" id="telefone" />
+                    </div>
+                </div>
+
+                <p class="pDiasHorariosFuncionamento">Sinalize os dias e horários de funcionamento da casa</p>
+
+                <div class="diasHorariosFuncionamento">
+                    <div class="diasFuncionamento">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="domingo">
+                            <label class="form-check-label" for="domingo"> Domingo </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="segunda-feira">
+                            <label class="form-check-label" for="segunda-feira"> Segunda-feira </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="terca-feira">
+                            <label class="form-check-label" for="terca-feira"> Terça-feira </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="quarta-feira">
+                            <label class="form-check-label" for="quarta-feira"> Quarta-feira </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="quinta-feira">
+                            <label class="form-check-label" for="quinta-feira"> Quinta-feira </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="sexta-feira">
+                            <label class="form-check-label" for="sexta-feira"> Sexta-feira </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="sabado">
+                            <label class="form-check-label" for="sabado"> Sábado</label>
+                        </div>
+                    </div>
+
+                    <div class="horariosFuncionamento">
+                        <div class="col">
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                            <input class="form-control" type="text" id="horario" placeholder="Digite o horário" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sonorizacaoIluminacao">
+
+
+                    <div class="checkSonorizacaoIluminacao">
+                        <p>O estabelecimento possui equipamentos de sonorização/iluminação?</p>
+                        <div class="inputLabelSonorizacao">
+                            <input class="form-check-input" type="checkbox" value="" id="sim">
+                            <label class="form-check-label" for="sim"> Sim</label>
+                            <input class="form-check-input" type="checkbox" value="" id="nao">
+                            <label class="form-check-label" for="nao"> Não</label>
+                        </div>
+                    </div>
+
+                    <div class="descritivoSonorizacaoIluminacao">
+                        <p>Se sim, descrever abaixo:</p>
+
+                        <textarea name="descricaosonorizacao" id="descricaosonorizacao" cols="125" rows="6"></textarea>
+                    </div>
+                    <div class="divSelectEstilos">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Selecione os estilos musicais</option>
+                            <option value="pop">Pop</option>
+                            <option value="rock">Rock</option>
+                            <option value="sertanejo">Sertanejo</option>
+                            <option value="hiphop">Hip hop</option>
+                            <option value="bossaNova">Bossa nova</option>
+                            <option value="pagode">Pagode</option>
+                            <option value="samba">Samba</option>
+                            <option value="metal">Metal/Heavy Metal</option>
+                            <option value="gospel">Gospel</option>
+                            <option value="eletronica">Eletronic</option>
+                            <option value="punk">Punk</option>
+                            <option value="blues">Blues</option>
+                            <option value="jazz">Jazz</option>
+                            <option value="forro">Forró</option>
+                            <option value="musicaClassica">Musica Clássica</option>
+                            <option value="reggae">Reggae</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="endereco2">
+
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label" for="endereco">Endereço do Estabelecimento</label>
+                            <input class="form-control" type="text" id="endereco" />
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="numero">Nº</label>
+                            <input class="form-control" type="text" id="numero" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label" for="bairro">Bairro</label>
+                            <input class="form-control" type="text" id="bairro" />
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="cidade">Cidade</label>
+                            <input class="form-control" type="text" id="cidade" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label" for="cep">CEP</label>
+                            <input class="form-control" type="text" id="cep" />
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="estado">Estado</label>
+                            <input class="form-control" type="text" id="estado" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btnSalvar">
+                    <button type="submit">Salvar!</button>
+                </div>
+
+
         </div>
-        <div class="iconesRedesSociaisCad">
-          <div>
-            <a href="http://www.facebook.com/"
-              ><img src="./img/face.svg" alt="facebook"
-            /></a>
-          </div>
-          <div>
-            <a href="http://www.twitter.com/"
-              ><img src="./img/twitter.svg" alt="twitter"
-            /></a>
-          </div>
-          <div>
-            <a href="http://www.instagram.com/"
-              ><img src="./img/insta.svg" alt="instagram"
-            /></a>
-          </div>
-          <div>
-            <a href="http://www.linkedin.com/"
-              ><img src="./img/linke.svg" alt="linkedin"
-            /></a>
-          </div>
-          <div>
-            <a href="http://www.youtube.com/"
-              ><img src="./img/you.svg" alt="youtube"
-            /></a>
-          </div>
-        </div>
-      </div>
+
+
     </main>
 
     <footer class="footer-1">
 
-      <div class="colum-1">
-          <ol class="quem-somos">Quem somos</ol>
-          <ol>A empresa</ol>
-          <ol>Nossa história</ol>
-          <ol>Na mídia</ol>
-      </div>
-  
-      <div class="colum-2">
-          <ol class="como-funciona">Como funciona</ol>
-          <ol>Como cadastrar</ol>
-          <ol>Como contratar</ol>
-          <ol>Planos</ol>
-      </div>
-  
-      <div class="colum-3">
-          <ol class="links-uteis">Links úteis</ol>
-          <ol>Política de privacidade</ol>
-          <ol>Política de cookies</ol>
-          <ol>Fale conosco</ol>
-      </div>
-  
-      <div class="redes-sociais">
-          <p>Siga a TOCAQUI nas redes sociais:</p>
-          <img class="icone-facebook" src="../../images/icones/face.svg" alt="#">
-          <img class="icone-insta" src="../../images/icones/insta.svg" alt="#">
-          <img class="icone-twitter" src="../../images/icones/twitter.svg" alt="#">
-          <img class="icone-linkedIn" src="../../images/icones/linke.svg" alt="#">
-          <img class="icone-youtube" src="../../images/icones/you.svg" alt="#">
-      </div>
-      
-  </footer>
-  
-  <footer class="footer-2">
-      <div class="logo-rodape"><img src="../../images/logo-svg/logo-tocaqui-1-a.svg"></div>
-      <div class="copyright">© TOCAQUI 2021. Todos os direitos reservados.</div>
-  </footer>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        <div class="colum-1">
+            <ol class="quem-somos">Quem somos</ol>
+            <ol>A empresa</ol>
+            <ol>Nossa história</ol>
+            <ol>Na mídia</ol>
+        </div>
+
+        <div class="colum-2">
+            <ol class="como-funciona">Como funciona</ol>
+            <ol>Como cadastrar</ol>
+            <ol>Como contratar</ol>
+            <ol>Planos</ol>
+        </div>
+
+        <div class="colum-3">
+            <ol class="links-uteis">Links úteis</ol>
+            <ol>Política de privacidade</ol>
+            <ol>Política de cookies</ol>
+            <ol>Fale conosco</ol>
+        </div>
+
+        <div class="redes-sociais">
+            <p>Siga a TOCAQUI nas redes sociais:</p>
+            <img class="icone-facebook" src="../../images/icones/face.svg" alt="#">
+            <img class="icone-insta" src="../../images/icones/insta.svg" alt="#">
+            <img class="icone-twitter" src="../../images/icones/twitter.svg" alt="#">
+            <img class="icone-linkedIn" src="../../images/icones/linke.svg" alt="#">
+            <img class="icone-youtube" src="../../images/icones/you.svg" alt="#">
+        </div>
+
+    </footer>
+
+    <footer class="footer-2">
+        <div class="logo-rodape"><img src="../../images/logo-svg/logo-tocaqui-1-a.svg"></div>
+        <div class="copyright">© TOCAQUI 2021. Todos os direitos reservados.</div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
+
 </html>
