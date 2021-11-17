@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     res.send("My first express web page!!!!")
 })
 
-app.get("/about", (req, res) =>{
+app.get("/home", (req, res) =>{
     res.send("My business is so cool!!!")
 })
 
