@@ -1,0 +1,483 @@
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  header {
+    margin: 0 auto;
+    background-color: #31000c;
+    width: auto;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 106px;
+    height: 67px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;  
+   }
+   
+   li {
+     display: inline-flex;
+     flex-direction: row;
+     text-decoration: none;
+     list-style: none;
+   }
+   
+   .menu ul li a{
+     list-style: none;
+     text-decoration: none;
+     color: #e01747;
+     font-weight: bold;
+     font-size: 10px;
+     margin: 0 30px;
+   }
+   .btnSouEstabelecimento {
+    width: 134px;
+    height: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    color: #e01747;
+    font-weight: bold;
+    margin-left: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 600px;
+  }
+  
+  .btnSouMusicista {
+    width: 134px;
+    height: 20px;
+    background-color: #e01747;
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 15px;
+    border: 1px solid #e01747;
+    border-radius: 600px;
+  }
+  .perfil-menu{
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      padding: 20px 0 20px 0;
+  }
+  .perfil{
+      text-align:center;
+      font-size:20px;
+      color:rgb(224,23,70);
+      margin-left:auto;
+  }
+  .menu{
+      text-align:center;
+      margin-left:auto;
+  }
+  .capa{
+      box-sizing: border-box;           
+      margin-left: 50px;
+      margin-right: 50px;                
+      background-repeat: no-repeat;
+      display: flexbox;    
+      
+        
+      
+  }
+  .img{
+      
+      display:flex;
+      align-items:stretch;
+      margin-left: 90px;
+      margin-top: -50px;
+  }
+  .cantor{
+    font-weight:bold;
+   padding:15px;
+   margin-left: 50px;
+    color: #e01747;
+    font-size:20px;
+  }
+  .bio{
+    margin-left: 50px;
+    padding-bottom: 15px;
+    
+  }
+  h2{
+    font-size: 22px;
+    text-align: center;
+    color: #e01747;
+
+  }
+  .caixa{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    
+  }
+  .caixa1 {
+    box-sizing: border-box;
+    width: 300px;
+    height:400px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+
+
+  }
+  .p{    
+    margin-top: 0px;
+    
+    margin-right: 0 auto;
+    color:gray;
+    text-align: justify;
+    
+   
+  }
+  .caixa2 {
+    box-sizing: border-box;
+    width: 300px;
+    height:400px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .p2{
+    margin-top: 0px;    
+    margin-right: 0 auto;
+    color:gray;
+    text-align: justify;
+  }
+  .caixa3 {
+    box-sizing: border-box;
+    width: 300px;
+    height:400px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .p3{
+    margin-top: 0px;    
+    margin-right: 0 auto;
+    color:gray;
+    text-align: justify;
+  }
+  h3{
+    font-size: 22px;
+    text-align: center;
+    color: #e01747;
+  }
+  .box{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    padding-bottom: 20px;
+
+
+  }
+  .box1{
+    box-sizing: border-box;
+    width: 250px;
+    height:300px;   
+    border: 1px solid gray;
+    margin: 10px;        
+  }
+  .img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .p4{
+    margin-top: 0px;    
+    margin-right: 0 auto;
+    color:gray;
+    text-align: center;    
+  }
+  .box2{
+    box-sizing: border-box;
+    width: 250px;
+    height:300px;   
+    border: 1px solid gray;
+    margin: 10px;        
+  }
+  .img3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .p5{
+    margin-top: 0px;    
+    margin-right: 0 auto;
+    color:gray;
+    text-align: center;  
+  }
+  .box3{
+    box-sizing: border-box;
+    width: 250px;
+    height:300px;   
+    border: 1px solid gray;
+    margin: 10px;
+  }
+  .img4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .p6{
+    margin-top: 0px;    
+    margin-right: 0 auto;
+    color:gray;
+    text-align: center;  
+  }
+  .footer-1{
+    display: flex;
+    padding: auto;
+    background-color:#363636;
+    font-family: Montserrat;
+    text-align: left;
+}
+
+.colum-1{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 130%;
+   
+}
+
+.quem-somos{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.colum-2{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.como-funciona{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.colum-3{
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    margin: auto;
+    line-height: 170%;
+}
+
+.links-uteis{
+    font-weight: bold;
+    padding-bottom: 14%;
+    font-size: 14px;
+}
+
+.redes-sociais {
+    color: white;
+    font-size: 12px;
+    padding: 3%;
+    line-height: 170%;
+    padding: center;
+}
+
+.icone-facebook{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-insta{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-twitter{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-linkedIn{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.icone-youtube{
+    width: 6%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.logo-rodape{
+    width: 10%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-2{
+    background-color:#363636;
+}
+
+.copyright{
+    font-family: Montserrat;
+    padding: 2%;
+}
+
+
+
+
+
+@media(max-width: 950px)
+{
+    .logo{
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    ol:hover{
+        cursor: pinter;
+        opacity: 0.8;
+    }
+
+    .footer-1{
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colum-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .colum-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .colum-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rodape{
+        min-width: 22%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-2{
+        text-align: center;
+    }
+
+    .redes-sociais{
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .copyright{
+        padding-bottom: 10%;
+        font-size: 12px;
+        size: 50px;
+    }
+
+    .button-responsivo{
+        display: flex;
+        font-size: 30px;
+        padding-top: 70px;
+        padding-right: 30px;
+    }
+    
+    .button-responsivo:focus ˜ ol {
+        height: 250px
+
+    }
+
+    .button-responsivo:hover{
+        cursor: pinter;
+        opacity: 0.8;
+        cursor: pointer;
+        color: black
+    }
+
+    .menu{
+        text-align: justify;
+        margin-right: none;
+        background-color: black; opacity: 80%;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+        
+    .botao-estabelecimento{
+        width: 0;
+        height: 0;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .botao-musicista{
+        width: 0;
+        height: 0;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .titulo{
+        padding-top: 40%;
+        font-size: 25px;
+    }
+    
+}
+    
