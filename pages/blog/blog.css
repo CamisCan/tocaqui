@@ -3,8 +3,8 @@
 /*CABEÇALHO PÁGINA*/
 
 .banner{
-    background-image: url(/images/foto-banners/pexels-miguel-Ã¡-padriÃ±Ã¡n-1591056.jpg);
-    background-size: cover
+    background-image: url(../../images/foto-banners/pexels-miguel-Ã¡-padriÃ±Ã¡n-1591056.jpg);
+    background-size: cover;
 }
 
 .button-responsivo{
@@ -17,7 +17,7 @@
 
 .logo{
     width: 10%;
-    float: inline-start;
+    float: left;
     display: inline;
     padding-left: 5%;
     padding-top: 1%;
@@ -45,7 +45,6 @@ ol:hover{
     cursor: pointer;
     color: #E01747
 }
-
 
 .menu ol{
     display: inline;
@@ -314,6 +313,7 @@ ol:hover{
 }
 
 .redes-sociais {
+    width: 35%;
     color: white;
     font-size: 12px;
     padding: 3%;

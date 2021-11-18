@@ -20,7 +20,7 @@
   float: left;
   display: inline;
   padding-left: 5%;
-  padding-top: 3%;
+  padding-top: 1%;
 }
 
 .titulo {
@@ -30,7 +30,7 @@
   font-weight: bold;
   color: white;
   padding: auto;
-  padding: 10%;
+  padding: 5%;
 }
 
 .menu {
@@ -282,11 +282,11 @@ body {
 
 .redes-sociais {
   width: 35%;
-  text-align: center;
   color: white;
   font-size: 12px;
   padding: 3%;
   line-height: 170%;
+  padding: center;
 }
 
 .icone-facebook {

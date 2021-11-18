@@ -3,7 +3,7 @@
 /*CABEÇALHO PÁGINA*/
 
 .banner{
-    background-image: url(/images/foto-banners/cadastro-musico.jpg);
+    background-image: url(../../images/foto-banners/cadastro-musico.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -18,7 +18,7 @@
 
 .logo{
     width: 10%;
-    float: inline-start;
+    float: left;
     display: inline;
     padding-left: 5%;
     padding-top: 1%;
